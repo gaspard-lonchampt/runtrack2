@@ -47,7 +47,7 @@ if (isset($hauteur)&&isset($largeur))
             echo "_";   
 // Boucle pour les côtés
     for ($h=0; $h <= $hauteur-2 ;$h++) 
-            echo "<br />" . "|". str_repeat('&nbsp;', (($largeur-1)*2)) . "|";
+            echo "<br />" ."&nbsp" . "|". str_repeat('&nbsp;', (($largeur-2)*2)) . "|";
 // première boucle pour faire le bas
     for ($l=0; $l <= $largeur ;$l++) 
         if ($l == 0) 
