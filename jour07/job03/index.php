@@ -1,3 +1,5 @@
+
+<pre>
 <?php 
 session_start(); 
 
@@ -17,9 +19,10 @@ if (isset($_SESSION['user'])) {
     }
 }
 
-var_dump($_SESSION)
+@var_dump($_SESSION)
 
 ?> 
+</pre>
 
 <html>
 <body>
